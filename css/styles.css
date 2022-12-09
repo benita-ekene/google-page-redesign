@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #202124;
+}
+
+body, h1 {
+  font-size: 14px;
+}
+html, body, h1, input, select {
+  font-family: arial,sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+/* Styling for header nav1*/
+
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2%;
+  padding-right: 4%;
+}
+
+.logo-img > .google-logo {
+    aspect-ratio: auto 92 / 30;
+    width: 92px;
+    padding-top: 10px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 53%;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px #d1cccc;
+  margin-left: 40px;
+  border-radius: 30px;
+  padding: 10px;
+  height: 45px;
+  gap: 10px;
+  margin-right: 300px;
+}
+
+input {
+  width: 80%;
+  border-style: hidden;
+}
+
+.vert-line {
+  height: 30px;
+  width: 40px;
+ 
+}
+
+.goxjub {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.setting {
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+  padding-top: 5px;
+
+}
+
+.account_img {
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+
+/* Styling for header nav2*/
+
+.nav2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 0.5%;
+  padding-right: 39%;
+  padding-left: 11%;
+  border-bottom: 0.5px solid #d1cccc;
+}
+
+.search-all {
+  display: flex;
+  flex-direction: row;
+  height: 18px;
+  border-bottom: 3px solid blue;
+  padding-bottom: 30px;
+  text-decoration: none;
+  width: 35px;
+  margin-left: 40px;
+  color: blue;
+  gap: 0.5rem;
+}
+
+.div-nav2 {
+  display: flex;
+  flex-direction: row;
+  width: 70px;
+  font-size: 14px;
+  color: rgb(70, 66, 66);
+  gap: 5px;
+  text-decoration: none;
+}
+
+.nav2-img {
+  width: 17px;
+  height: 16px;
+}
+
+.nav2-tools {
+  padding-left: 200px;
+  text-decoration: none;
+}
+
+
+/* Styling for hero section*/
+
+.hero-section{
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 12%;
+  font-size: 16px;
+}
+
+.nav3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55%;
+  padding-top: 3%;
+  font-family: Google Sans,arial,sans-serif-medium,sans-serif;
+  font-size: 14px;
+  color: #202124;
+}
+
+.about_result{
+  color: #70757a;
+  
+}
+
+.messi-lionel {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 450;
+  padding-bottom: 7px;
+}
+  
+.nav3-footballer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.overview {
+  background-color:#E7E7EA;
+  text-decoration: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  border: 1px solid black;
+  align-content: center;
+  padding: 11px 19px;
+}
+
+.stats {
+  background-color: #E7E7EA;
+  text-decoration: none;
+  height: 40px;
+  width: 75px;
+  border-radius: 30px;
+  align-content: center;
+  padding: 11px 19px;
+}
+
+.videos {
+  background-color: #E7E7EA;
+  text-decoration: none;
+  height: 40px;
+  width: 85px;
+  border-radius: 30px;
+  align-content: center;
+  padding: 11px 19px;
+}
+
+.products {
+  background-color: #E7E7EA;
+  text-decoration: none;
+  height: 40px;
+  width: 94px;
+  border-radius: 30px;
+  align-content: center;
+  padding: 11px 19px;
+}
+
+
+

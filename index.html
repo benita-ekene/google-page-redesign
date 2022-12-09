@@ -4,10 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Google Webpage Redesign</title>
 </head>
 <body>
+
+  <!--Header section-->
+
+ <header class="header-section">
+  <div class="nav1">
+    <a href="https://www.google.com/?&bih=649&biw=1366&hl=en" class="logo-img"><img src="images/google_logo.png" alt="Google" class="google-logo"></a>
+    <div class="search-bar">
+      <input type="text" class="">
+      <a href=""><svg class="goxjub" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></a> 
+      <img src="images/vertical_line.png" class="vert-line">
+      <a href=""><svg class="goxjub" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path><path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path><path fill="#fbbc05" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path><path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path></svg></a>
+      <a href=""><img src="images/google_lense.png" class="goxjub"></a>
+      <a href=""><img src="images/search-icon.png" class="goxjub"></a>
+    </div>
+    <a href="" class="setting"><img src="images/setting.png"></a>
+    <a href="" class="setting"><img src="images/thumbnail.png"></a>
+    <a href=""><img src="images/account-img.webp" class="account_img"></a>
+  </div>
+
+  <div class="nav2">
+    <a href="" class="search-all">
+      <svg class="nav2-img" focusable="false" viewBox="0 0 24 24"><path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path><path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path><path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path><path fill="#4285f4" d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59"></path></svg>
+      <p>All</p>
+    </a>
+    <a href="" class="div-nav2">
+      <img src="images/news-icon1.jpg" class="nav2-img">
+      <p>News</p>
+    </a>
+    <a href="" class="div-nav2">
+      <svg class="nav2-img" focusable="false" viewBox="0 0 24 24"><path d="M14 13l4 5H6l4-4 1.79 1.78L14 13zm-6.01-2.99A2 2 0 0 0 8 6a2 2 0 0 0-.01 4.01zM22 5v14a3 3 0 0 1-3 2.99H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 3-3h14c1.65 0 3 1.36 3 3zm-2.01 0a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h7v-.01h7a1 1 0 0 0 1-1V5"></path></svg>
+      <p>Images</p>
+    </a>
+    <a href="" class="div-nav2">
+      <svg class="nav2-img" focusable="false" viewBox="0 0 24 24"><path d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg>
+      <p>Videos</p>
+    </a>
+    <a href="" class="div-nav2">
+      <svg class="nav2-img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
+      <p>More</p>
+    </a>
+    <a href="" class="nav2-tools">Tools</a>
+  </div>
+ </header>
   
+<!--Header section-->
+
+  <div class="hero-section">
+    <p class="about_result">About 209,000,000 results (0.79 seconds )</p>
+    <div class="nav3">
+      <div>
+        <p class="messi-lionel">Lionel Messi</p>
+        <div class="nav3-footballer">
+        <p>Footballer</p>
+        <a href=""><svg class="nav2-img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg></a>
+        </div>
+      </div>
+      <a href="" class="overview">Overview</a>
+      <a href="" class="stats">News</a>
+      <a href="" class="stats">Stats</a>
+      <a href="" class="videos">Videos</a>
+      <a href="" class="products">products</a>
+    </div>
+  </div>
 </body>
 </html>
