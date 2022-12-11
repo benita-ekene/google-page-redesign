@@ -491,7 +491,117 @@ padding-bottom: 15px;
   padding-top: 13px;
 }
 
+/* Styling for the Related Searches-section */
 
+.related-searches {
+padding-left: 10%;
+padding-right: 40%;
+}
+
+.searches-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+  font-size: 22px;
+  font-weight: 530;
+  padding-bottom: 30px;
+}
+
+.messi-houses {
+  display: flex;
+  flex-direction: row;
+}
+
+.houses1-4 {
+  width: 220px;
+  height: 144px;
+}
+
+
+.faq-input {
+  display: none;
+}
+.faq-label {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 5px 0;
+  cursor: pointer;
+  border-radius: 3px;
+  color: rgb(24, 23, 23);
+  transition: ease 0.5s;
+  position: relative;
+  height: 76px;
+  text-align: justify;
+  border-top: 1px solid rgb(202, 199, 199);
+ 
+}
+
+.house-p{
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 530;
+  padding-left: 10px;
+}
+
+.faq-label::after {
+  content: "v";
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.faq-input:checked + .faq-label::after {
+  content: "^";
+  right: 14px;
+  top: 3px;
+}
+
+.faq-input + .faq-label + .messi-houses {
+  display: none;
+}
+
+.faq-input:checked + .faq-label + .messi-houses {
+  display: block;
+}
+
+.messi-house {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.search-containers {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container1-2-div {
+  width: 320px;
+  height: 50px;
+  background-color:rgb(237, 240, 243);
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.container1-2-link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #202124;
+}
+
+.messi-psg {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.psg-div {
+  font-size: 16px;
+  padding: 15px;
+}
 
 /* Styling for the footer-section */
 
