@@ -5,6 +5,6 @@ It is for teaching and learning purposes.
 
 This is the link to redesigned google webpage: 
 
-**List of Words that Should be Spelled Correctly** <br/>
-google <br/>
+<h3>List of Words that Should be Spelled Correctly</h3>
+google <br>
 about
