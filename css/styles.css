@@ -492,3 +492,61 @@ padding-bottom: 15px;
 }
 
 
+
+/* Styling for the footer-section */
+
+.footer-section {
+width: 100%;
+background-color: #E7E7EA;
+}
+
+.footer-1{
+height: 8vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 10%;
+padding-right: 60%;
+padding-top: 20px;
+font-weight: 530;
+}
+
+.lagos-link {
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-decoration: none;
+}
+
+.dot-one {
+  width: 15px;
+  height: 15px;
+}
+
+.lagos-p {
+  color: #202124;
+  font-weight: 600;
+}
+
+.footer-2{
+  border-top: 1px solid rgb(160, 157, 157);
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  padding-left: 10%;
+padding-right: 70%;
+font-weight: 530;
+}
+
+.footer2-link {
+  text-decoration: none;
+  color: #707377;
+}
+
+
+
+
+
+
