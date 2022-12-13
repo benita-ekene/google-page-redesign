@@ -307,19 +307,128 @@ input {
   margin-left: 10%;
   margin-right: 7%;
   margin-top: 4rem;
+  line-height: 1.4rem;
 }
 
 .top_stories {
+  width: 60%;
+}
+
+.stories-div{
+  border-bottom: 0.5px solid rgb(231, 226, 226);
+margin-bottom: 10px;
+
+}
+
+.top-1 {
+  font-size: 20px;
+  font-weight: 530;
+}
+
+.top-2 {
+  font-size: 16px;
+  font-weight: 530;
+  text-decoration: none;
+  color: #202124;
+ line-height: 3rem;
+}
+
+.stories {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 50%;
+  
+}
+
+.stories-column1 {
+  border-right: 1px solid gainsboro;
+width: 49%;
+padding-right: 10px;
+}
+
+.stories-para {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 16px;
+  font-weight: 530;
+}
+
+.stories-para-div {
+  border-bottom: 0.5px solid rgb(231, 226, 226);
+  padding-bottom: 20px;
+}
+
+.stories-timing {
+  color: gray;
+  font-size: 14px;
+  font-weight: 530;
+  
 }
 
 .espn-img {
-  width: 314;
-  height: 172 
+  width: 314px;
+  height: 172px; 
+  border-radius: 10px;
 }
+
+.stories-column2{
+width: 49%;
+padding-left: 10px;
+}
+
+.london-p {
+  color: green;
+  font-weight: 550;
+}
+
+.football-london {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 17px;
+  font-weight: 530;
+  line-height: 1.6rem;
+  border-bottom: 0.5px solid rgb(231, 226, 226);
+  margin-bottom: 10px;
+}
+
+.football-london-img {
+  width: 92px;
+  height: 92px;
+  margin-left: 7px;
+  margin-top: 10px;
+}
+
+.punch-img {
+ width: 70px;
+ height: 16px;
+ margin-top: 10px;
+}
+
+.punch-timing {
+  color: gray;
+  font-size: 14px;
+  font-weight: 530;
+  padding-top: 53px;
+  
+}
+
+.sportsb-img {
+  width: 128px;
+  height: 17px;
+}
+
+.sportsb-timing {
+  color: gray;
+  font-size: 14px;
+  font-weight: 530;
+  padding-bottom: 29px;
+  
+}
+
+/* Styling for the about section */
 
 .about {
   width: 33%;
